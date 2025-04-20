@@ -1,0 +1,111 @@
+/* General body styling */
+body {
+  font-family: 'Georgia', serif; /* Elegant, professional font */
+  background-color: #2B2B2B; /* Ebony Black for a gothic background */
+  color: #C0C0C0; /* Silver for text */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #0f0f11; /* black */
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  color: #B8860B; /* gold */
+  font-size: 3em;
+  margin: 0;
+}
+
+header h2 {
+  color: #9B111E; /* crimson */
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+/* Navigation menu */
+nav {
+  background-color: #5A5F6E; /* stormy blue */
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #f0e6d2; /* cream */
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  color: #9B111E; /* crimson */
+}
+
+/* Section styling */
+section {
+  margin: 40px;
+  padding: 20px;
+  background-color: #708090; /* slate */
+  border-radius: 10px;
+}
+
+section h3 {
+  color: #B8860B; /* gold */
+}
+
+section p {
+  color: #C0C0C0; /* silver */
+  font-size: 1.1em;
+}
+
+/* Links */
+a {
+  color: #B8860B; /* gold */
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #9B111E; /* Crimson Red for hover effect */
+}
+
+/* Buttons */
+button {
+  background-color: #9B111E; /* Crimson */
+  color: #C0C0C0; /* Silver */
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #B8860B; /* Dark Gold for hover effect */
+}
+
+/* Footer */
+footer {
+  background-color: #0f0f11; /* black */
+  text-align: center;
+  padding: 20px;
+  color: #e0dcdc; /* grey */
+}
+.dragon-border {
+  border: 2px solid #B8860B; /* Gold */
+  padding: 10px;
+  border-radius: 8px;
+}
